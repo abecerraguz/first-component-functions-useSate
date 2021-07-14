@@ -1,7 +1,5 @@
-import react, { Component } from 'react';
-
-                
-                
+import React, { Component } from 'react';
+                    
 class LightSwitch extends Component {
     constructor(props) {
         super(props);
@@ -20,9 +18,7 @@ class LightSwitch extends Component {
     
     render() {
         return (
-            <div className="container">
-                <button onClick={ this.flipSwitch }>Switch { this.state.position }</button>
-            </div>
+           <button onClick={ this.flipSwitch }>Switch { this.state.position }</button>
         );
     }
 }

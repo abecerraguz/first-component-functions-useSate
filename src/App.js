@@ -1,6 +1,6 @@
 import './App.css';
 import PersonCard from './components/PersonCard';
-// import LightSwitch from './components/LightSwitch';
+import LightSwitch from './components/LightSwitch';
 
 
 function App() {
@@ -53,8 +53,10 @@ function App() {
                   age={cards.age}
                   hairColor={cards.hairColor}
                   >
+                  <LightSwitch/>
                   </PersonCard>
                 </li>
+                
               ))
             }
         </ul>
